@@ -5,45 +5,55 @@
 // a = -3 b = 9 -> нет
 
 
-int a = 25, b = 5;
-int c = 2, d = 10;
-int e = 9, f = -3;
-int g = -3, h = 9;
+// int a = 25, b = 5;
+// int c = 2, d = 10;
+// int e = 9, f = -3;
+// int g = -3, h = 9;
 
-if(b * b == a)
-{
-    Console.WriteLine(a);
-}
-else
-{
-    Console.WriteLine("Нет!");
-}
+// if(b * b == a)
+// {
+//     Console.WriteLine(a);
+// }
+// else
+// {
+//     Console.WriteLine("Нет!");
+// }
 
-if(d * d == c)
-{
-    Console.WriteLine(c);
-}
-else
-{
-    Console.WriteLine("Нет!");
-}
+// if(d * d == c)
+// {
+//     Console.WriteLine(c);
+// }
+// else
+// {
+//     Console.WriteLine("Нет!");
+// }
 
-if(f * f == e)
-{
-    Console.WriteLine(e);
-}
-else
-{
-    Console.WriteLine("Нет!");
-}
+// if(f * f == e)
+// {
+//     Console.WriteLine(e);
+// }
+// else
+// {
+//     Console.WriteLine("Нет!");
+// }
 
-if(h * h == g)
-{
-    Console.WriteLine(g);
-}
-else
-{
-    Console.WriteLine("Нет!");
-}
+// if(h * h == g)
+// {
+//     Console.WriteLine(g);
+// }
+// else
+// {
+//     Console.WriteLine("Нет!");
+// }
 
 
+int numberA = Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
+if (numberA == numberB * numberB)
+{
+    Console.WriteLine("True");
+}
+else 
+{
+    Console.WriteLine("False");
+}

@@ -4,17 +4,17 @@
 
 
 
-// Console.WriteLine("Введите день недели: ");
-// int day = Convert.ToInt32(Console.ReadLine());
-// switch (day)
-// {
-//     case 1:
-//     Console.WriteLine("Mon");
-//     break;
-//     case 2:
-//     Console.WriteLine("Tues");
-//     break;
-// }
+Console.WriteLine("Введите день недели: ");
+int day = Convert.ToInt32(Console.ReadLine());
+switch (day)
+{
+    case 1:
+    Console.WriteLine("Mon");
+    break;
+    case 2:
+    Console.WriteLine("Tues");
+    break;
+}
 
 
 

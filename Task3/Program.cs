@@ -4,15 +4,33 @@
 
 
 
-Console.WriteLine("Введите день недели: ");
-int day = Convert.ToInt32(Console.ReadLine());
-switch (day)
+Console.WriteLine("Введите номер дня недели: ");
+int dayweek = Convert.ToInt32(Console.ReadLine());
+switch (dayweek)
 {
     case 1:
     Console.WriteLine("Mon");
     break;
     case 2:
     Console.WriteLine("Tues");
+    break;
+    case 3:
+    Console.WriteLine("Wedn");
+    break;
+    case 4:
+    Console.WriteLine("Thurs");
+    break;
+    case 5:
+    Console.WriteLine("Fri");
+    break;
+    case 6:
+    Console.WriteLine("Satur");
+    break;
+    case 7:
+    Console.WriteLine("Sun");
+    break;
+    default:
+    Console.WriteLine("Нет такого номера их всего от 1 до 7! Попробуй еще раз!");
     break;
 }
 
@@ -58,4 +76,5 @@ switch (day)
 // {
 //     Console.WriteLine("Sun");
 // }
+
 

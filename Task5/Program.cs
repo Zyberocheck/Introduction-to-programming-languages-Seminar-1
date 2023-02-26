@@ -17,5 +17,5 @@ if (trip >= 100 && trip< 1000)
     Console.WriteLine(div);
 } else
 {
-    Console.WriteLine("Введите трехзначное число!")
+    Console.WriteLine("Введите трехзначное число!");
 }

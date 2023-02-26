@@ -4,30 +4,36 @@
 
 
 
-Console.WriteLine("Введите день недели: ");
-int day = Convert.ToInt32(Console.ReadLine());
-switch (day)
-{
-    case 1:
-    Console.WriteLine("Mon");
-    break;
-    case 2:
-    Console.WriteLine("Tues");
-    break;
-}
-int Mon = 1;
+// Console.WriteLine("Введите день недели: ");
+// int day = Convert.ToInt32(Console.ReadLine());
+// switch (day)
+// {
+//     case 1:
+//     Console.WriteLine("Mon");
+//     break;
+//     case 2:
+//     Console.WriteLine("Tues");
+//     break;
+// }
+
+
+
+
+
+// int Mon = 1;
 // int Tues = 2;
 // int Wedn = 3;
 // int Thurs = 4;
 // int Fri = 5;
 // int Satur = 6;
 // int Sun = 7;
+// Console.WriteLine("Введите номер дня недели: ");
+// int dayweek = Convert.ToInt32(Console.ReadLine());
+// if (dayweek == 1)
+// {
+//     Console.WriteLine("Mon");
+// }
 
-// int dayweek = Console.ReadLine();
-if (1)
-{
-    Console.WriteLine("Mon");
-}
 // if (dayweek == 2)
 // {
 //     Console.WriteLine("Tues");
@@ -53,8 +59,3 @@ if (1)
 //     Console.WriteLine("Sun");
 // }
 
-
-// Console.WriteLine("Введите ваше имя ");
-// string username = Console.ReadLine();
-// Console.Write("Привет, ");
-// Console.Write(username);

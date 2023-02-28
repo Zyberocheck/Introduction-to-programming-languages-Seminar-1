@@ -9,47 +9,9 @@ Console.WriteLine("Введите три числа: ");
 int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 int d = Convert.ToInt32(Console.ReadLine());
+int max = a;
+if (a > max) max = a;
+if (b > max) max = b;
+if (d > max) max = d;
 
-if (a > b)
-{
-    Console.WriteLine("max = " + a);
-}
-if (b > max)
-{
-    Console.WriteLine("max = " + b);
-}
-if (d > max)
-{
-    Console.WriteLine("max = " + d);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-// {
-//     Console.Write(a);
-//     Console.WriteLine(" больше чем " + b);
-// } else
-// {
-//     Console.Write(b);
-//     Console.WriteLine(" больше чем " + a);
-
-
-// }if (b > d)
-// {
-//     Console.Write(b);
-//     Console.WriteLine(" больше чем " + d);
-// } else
-// {
-//     Console.Write(d);
-//     Console.WriteLine(" больше чем " + b);
-// }
+Console.WriteLine("max = " + max);
